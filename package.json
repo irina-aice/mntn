@@ -1,0 +1,39 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "clean": "del-cli dist/*",
+    "build:parcel": "parcel build --public-url ./",
+    "build": "npm run clean & npm run build:parcel",
+    "lint:js": "eslint \"src/**/*.js\"",
+    "lint:css": "stylelint \"src/**/*.css\"",
+    "lint": "npm run lint:js && npm run lint:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irina-aice/template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irina-aice/template/issues"
+  },
+  "homepage": "https://github.com/irina-aice/template#readme",
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "eslint": "^8.4.1",
+    "parcel": "^2.0.1",
+    "stylelint": "^14.1.0",
+    "stylelint-config-standard": "^24.0.0"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  }
+}
