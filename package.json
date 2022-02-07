@@ -1,7 +1,8 @@
 {
-  "name": "template",
+  "name": "mntn",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "source": "src/index.html",
   "browserslist": [
     "defaults"
@@ -16,19 +17,11 @@
     "lint:css": "stylelint \"src/**/*.css\"",
     "lint": "npm run lint:js && npm run lint:css"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/irina-aice/template.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/irina-aice/template/issues"
-  },
-  "homepage": "https://github.com/irina-aice/template#readme",
   "devDependencies": {
     "del-cli": "^4.0.1",
-    "eslint": "^8.4.1",
+    "eslint": "^8.8.0",
     "parcel": "^2.0.1",
     "stylelint": "^14.1.0",
     "stylelint-config-standard": "^24.0.0"
