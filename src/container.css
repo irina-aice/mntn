@@ -1,0 +1,11 @@
+.container {
+  max-width: 1482px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container--large {
+  max-width: 1780px;
+}
