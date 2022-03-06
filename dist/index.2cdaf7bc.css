@@ -363,6 +363,12 @@ ul {
 
 .step__description {}
 
+.step__link {
+  font-size: 18px;
+  line-height: 22px;
+  color: #fbd784;
+}
+
 
 
 /*# sourceMappingURL=index.2cdaf7bc.css.map */
