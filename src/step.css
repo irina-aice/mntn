@@ -3,6 +3,14 @@
 .step__list {}
 .step__content {}
 
+.step__number {
+  font-weight: 700;
+  font-size: 240px;
+  line-height: 1;
+  color: #fff;
+  opacity: 0.1;
+}
+
 .step__subtitle {
   font-weight: 800;
   font-size: 18px;
