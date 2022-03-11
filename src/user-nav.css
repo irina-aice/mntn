@@ -1,0 +1,12 @@
+.user-nav {}
+.user-nav__list {}
+
+.user-nav__item {
+  font-size: 17px;
+  line-height: 21px;
+  color: #fff;
+}
+
+.user-nav__link {
+  color: inherit;
+}
