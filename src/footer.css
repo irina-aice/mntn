@@ -1,0 +1,21 @@
+.footer {}
+.footer__grid {}
+.footer__description {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.footer__copyright {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.footer__title {}
+.footer__list {}
+.footer__item {}
+.footer__link {}
