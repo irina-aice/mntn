@@ -15,7 +15,22 @@
   opacity: 0.5;
 }
 
-.footer__title {}
+.footer__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fbd784;
+}
+
 .footer__list {}
-.footer__item {}
-.footer__link {}
+
+.footer__item {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.footer__link {
+  color: inherit;
+}
