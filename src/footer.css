@@ -1,6 +1,22 @@
-.footer {}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer__grid {}
+
+.footer__grid--copyright {
+  width: 60%;
+}
+
+.footer__grid--nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer__description {
+  display: block;
   font-weight: 700;
   font-size: 18px;
   line-height: 32px;
@@ -8,6 +24,7 @@
 }
 
 .footer__copyright {
+  display: block;
   font-weight: 500;
   font-size: 18px;
   line-height: 32px;
@@ -29,6 +46,10 @@
   font-size: 18px;
   line-height: 32px;
   color: #fff;
+}
+
+.footer__item + .footer__item {
+  margin-top: 16px;
 }
 
 .footer__link {
