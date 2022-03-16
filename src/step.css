@@ -1,6 +1,12 @@
 .step {}
 
 .step__list {}
+
+.step__item {
+  display: flex;
+  justify-content: space-between;
+}
+
 .step__content {}
 
 .step__number {
