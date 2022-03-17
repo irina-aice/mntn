@@ -55,3 +55,9 @@
 .footer__link {
   color: inherit;
 }
+
+.footer__link:hover,
+.footer__link:focus,
+.footer__link:active {
+  opacity: 0.5;
+}
