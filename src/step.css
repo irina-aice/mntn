@@ -39,3 +39,13 @@
   line-height: 22px;
   color: #fbd784;
 }
+
+.step__image {}
+
+.step__item--left .step__image {
+  margin-left: 114px;
+}
+
+.step__item--right .step__image {
+  margin-right: 114px;
+}
