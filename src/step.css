@@ -7,9 +7,15 @@
   justify-content: space-between;
 }
 
-.step__content {}
+.step__content {
+  position: relative;
+  padding-left: 150px;
+}
 
 .step__number {
+  position: absolute;
+  top: 0;
+  left: 0;
   font-weight: 700;
   font-size: 240px;
   line-height: 1;
