@@ -7,9 +7,14 @@
   justify-content: space-between;
 }
 
+.step__item + .step__item {
+  margin-top: 200px;
+}
+
 .step__content {
   position: relative;
   padding-left: 150px;
+  padding-top: 141px;
 }
 
 .step__number {
