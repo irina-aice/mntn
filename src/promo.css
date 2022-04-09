@@ -3,4 +3,25 @@
 .promo__title {
   font-size: 88px;
   line-height: 100px;
+  text-transform: capitalize;
+}
+
+.promo__subtitle {
+  display: inline-block;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #fbd784;
+}
+
+.promo__subtitle::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 24px;
+  width: 72px;
+  height: 2px;
+  background-color: #fbd784;
 }
