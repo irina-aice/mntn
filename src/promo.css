@@ -6,6 +6,10 @@
   text-transform: capitalize;
 }
 
+.promo__list {
+  display: flex;
+}
+
 .promo__subtitle {
   display: inline-block;
   font-weight: 800;
