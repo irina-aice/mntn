@@ -6,6 +6,10 @@
   text-transform: capitalize;
 }
 
+.promo__contacts {
+  display: flex;
+}
+
 .promo__list {
   display: flex;
 }
