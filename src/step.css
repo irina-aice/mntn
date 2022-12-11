@@ -62,6 +62,10 @@
   color: #fbd784;
 }
 
+.step__link:hover {
+  opacity: 0.5;
+}
+
 .step__image {}
 
 .step__item--left .step__image {
