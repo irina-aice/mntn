@@ -66,6 +66,12 @@
   opacity: 0.5;
 }
 
+.step__link-icon {}
+
+.step__link:hover .step__link-icon {
+  transform: translateX(5px);
+}
+
 .step__image {}
 
 .step__item--left .step__image {
