@@ -16,6 +16,10 @@
   line-height: 1.375rem;
 }
 
+.promo__scroll-down {
+  display: block;
+}
+
 .promo__list {
   display: flex;
 }
